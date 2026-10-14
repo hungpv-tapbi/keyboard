@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ref: https://developer.android.com/reference/android/view/inputmethod/InputMethodInfo#xml-attributes_1 -->
+<input-method xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:configChanges="uiMode"
+    android:settingsActivity="com.example.samplekeyboard.ui.MainActivity"
+    android:supportsInlineSuggestions="true"
+    android:supportsSwitchingToNextInputMethod="true"
+    tools:targetApi="36">
+    <subtype
+        android:icon="@mipmap/ic_launcher"
+        android:imeSubtypeMode="keyboard"
+        android:isAsciiCapable="true"
+        android:label="@string/app_name"
+        android:overridesImplicitlyEnabledSubtype="true" />
+</input-method>
